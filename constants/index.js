@@ -35,15 +35,15 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'More accessible',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Text-to-speech features to allow an alternative means of access to UI for blind and low-vision individuals. ',
   },
   {
     imgUrl: '/headset.svg',
     title: 'More realistic',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Enhance feeling and perception to provide a more immersive experience of reality.',
   },
 ];
 

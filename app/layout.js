@@ -8,7 +8,11 @@ const RootLayout = ({ children }) => (
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Space+Mono&display=swap">
       </link>    
     </head>
-    <body>{children}</body>
+    <body>
+     <div className='overflow-hidden bg-primary-black'>
+      {children}
+      </div>
+    </body>
   </html>
 );
 
