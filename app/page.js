@@ -1,5 +1,4 @@
 'use client';
-import dynamic from 'next/dynamic'
 import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew } from '../sections';
 import { LazyMotion, domAnimation } from "framer-motion"
