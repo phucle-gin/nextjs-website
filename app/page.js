@@ -25,9 +25,7 @@ const Insights = dynamic(() => import('../sections/Insights'), {
 const WhatsNew = dynamic(() => import('../sections/WhatsNew'), {
   suspense: true,
 })
-const World = dynamic(() => import('../sections/World'), {
-  suspense: true,
-})
+
 const Footer = dynamic(() => import('../components/Footer'), {
   suspense: true,
 })
@@ -43,7 +41,6 @@ const Page = () => (
       <Explore />
       <GetStarted />
       <WhatsNew />
-      <World />
       <Insights />
       <Feedback />
       <Footer />
